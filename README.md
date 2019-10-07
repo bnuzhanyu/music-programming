@@ -1,2 +1,2 @@
 # music-programming
-a programming 
+a programming project for music playing, processing and auto-generation
