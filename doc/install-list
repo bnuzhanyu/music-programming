@@ -1,0 +1,7 @@
+python 3.5 - 3.7
+pip3 --version >=19.0
+
+pip3 install -U virtualenv
+
+
+
