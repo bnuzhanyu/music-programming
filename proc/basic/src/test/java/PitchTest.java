@@ -20,6 +20,8 @@ public class PitchTest {
         testPitch(4, 9, 69, 440.0);
         //G6
         testPitch(6, 7, 91,  1567.98);
+
+        testPitch(12, 10, 166,  119337.92);
     }
 
 }

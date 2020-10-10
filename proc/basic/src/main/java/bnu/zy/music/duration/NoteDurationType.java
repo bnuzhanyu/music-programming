@@ -2,12 +2,12 @@ package bnu.zy.music.duration;
 
 public enum NoteDurationType implements NoteDuration {
 
-    WHOLE(NoteDuration.WHOTE_NOTE_LENGTH),
-    SEMI(NoteDuration.WHOTE_NOTE_LENGTH / 2),
-    TRIPLET(NoteDuration.WHOTE_NOTE_LENGTH / 3),
-    QUARTER(NoteDuration.WHOTE_NOTE_LENGTH / 4),
-    EIGHTH(NoteDuration.WHOTE_NOTE_LENGTH / 8),
-    SIXTEENTH(NoteDuration.WHOTE_NOTE_LENGTH / 16),
+    WHOLE(WHOTE_NOTE_LENGTH),
+    SEMI(WHOTE_NOTE_LENGTH / 2),
+    TRIPLET(WHOTE_NOTE_LENGTH / 3),
+    QUARTER(WHOTE_NOTE_LENGTH / 4),
+    EIGHTH(WHOTE_NOTE_LENGTH / 8),
+    SIXTEENTH(WHOTE_NOTE_LENGTH / 16),
     ;
 
     private final int duration;
