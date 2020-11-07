@@ -1,4 +1,4 @@
-package bnu.zy.music.pitch;
+package bnu.zy.music.basic.pitch;
 
 public interface Pitch {
     /**

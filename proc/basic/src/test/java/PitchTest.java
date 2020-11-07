@@ -1,5 +1,5 @@
-import bnu.zy.music.pitch.MidiPitchImpl;
-import bnu.zy.music.pitch.Pitch;
+import bnu.zy.music.basic.pitch.MidiPitchImpl;
+import bnu.zy.music.basic.pitch.Pitch;
 import org.junit.Assert;
 import org.junit.Test;
 

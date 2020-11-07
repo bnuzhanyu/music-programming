@@ -1,6 +1,6 @@
-package bnu.zy.music.chord;
+package bnu.zy.music.basic.chord;
 
-import bnu.zy.music.pitch.Pitch;
+import bnu.zy.music.basic.pitch.Pitch;
 
 /**
  * generate a chord by root

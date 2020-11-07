@@ -1,8 +1,8 @@
-package bnu.zy.music.pitch;
+package bnu.zy.music.basic.pitch;
 
 import org.apache.commons.lang3.tuple.Pair;
 import org.checkerframework.common.value.qual.IntRange;
-import static bnu.zy.music.pitch.MidiPitchUtil.pitchToMidi;
+import static bnu.zy.music.basic.pitch.MidiPitchUtil.pitchToMidi;
 
 public class MidiPitchImpl implements Pitch {
     private final int octave;

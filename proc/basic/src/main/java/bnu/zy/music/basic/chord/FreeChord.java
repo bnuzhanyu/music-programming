@@ -1,8 +1,8 @@
-package bnu.zy.music.chord;
+package bnu.zy.music.basic.chord;
 
 import bnu.zy.music.basic.MusicInterval;
-import bnu.zy.music.pitch.Pitch;
-import bnu.zy.music.pitch.PitchOperation;
+import bnu.zy.music.basic.pitch.Pitch;
+import bnu.zy.music.basic.pitch.PitchOperation;
 import com.google.common.collect.Lists;
 
 import java.util.List;

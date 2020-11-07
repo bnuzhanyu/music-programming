@@ -11,5 +11,13 @@
 
     <artifactId>midi</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>bnu.zy.music</groupId>
+            <artifactId>basic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

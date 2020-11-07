@@ -1,4 +1,4 @@
-package bnu.zy.music.pitch;
+package bnu.zy.music.basic.pitch;
 
 import org.apache.commons.lang3.tuple.ImmutablePair;
 import org.apache.commons.lang3.tuple.Pair;

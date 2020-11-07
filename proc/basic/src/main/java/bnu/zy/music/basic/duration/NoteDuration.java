@@ -1,4 +1,4 @@
-package bnu.zy.music.duration;
+package bnu.zy.music.basic.duration;
 
 /**
  * @author zhanyu

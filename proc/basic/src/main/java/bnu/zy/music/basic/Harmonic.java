@@ -1,6 +1,6 @@
 package bnu.zy.music.basic;
 
-import bnu.zy.music.pitch.Pitch;
+import bnu.zy.music.basic.pitch.Pitch;
 
 import java.util.List;
 
