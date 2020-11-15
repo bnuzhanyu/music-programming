@@ -50,10 +50,9 @@ public enum MidiInstrument {
     FLUTE(73),
     //陶笛
     OCARINA(79),
-
     ;
 
-    public int id;
+    public final int id;
     MidiInstrument(int id) {
         this.id = id;
     }

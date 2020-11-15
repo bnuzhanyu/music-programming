@@ -28,13 +28,13 @@ public class RawMidiTest {
     }
 
     void init() {
-        int ticksPerQuater = 1000;
+        int ticksPerQuater = 500;
         try {
             int n = 4;
             for (MidiInstrument ins : MidiInstrument.values()) {
                 Sequence sequence = new Sequence(Sequence.PPQ, ticksPerQuater);
                 Track track1 = sequence.createTrack();
-                long startTick = 100, noteLen = 1000;
+                long startTick = 100, noteLen = 500;
                 addToTrack(track1, 0, 56, startTick, 0);
                 changeInstrument(track1, 0, ins.id);
                 for (int i = 0; i < 4; i++) {
@@ -42,7 +42,7 @@ public class RawMidiTest {
                     //addToTrack(track1, startTick + noteLen * (n - 1 - i), 64 + i, noteLen, 100 - i * 3);
                 }
                 Sequencer sequencer = MidiSystem.getSequencer();
-                sequencer.setTempoInBPM(60);
+                //sequencer.setTempoInBPM(30);
                 sequencer.setSequence(sequence);
                 sequencer.open();
                 sequencer.start(); //possibly start another thread
